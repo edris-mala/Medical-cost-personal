@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title%} Prediction {% endblock title%}
+{% block content%}
+<div class="row">
+    <div class="col-md-3 col-lg-3 col-xl-3  col-sm-3"></div>
+    <div class="col-md-6 col-lg-6 col-xl-6  col-sm-6">
+        <div class="card">
+            <img src="{{image_url}}" class="card-img-top" alt="Machine Learning">
+            <div class="card-body">
+                <h6 class="card-title">هزینه شما :</h6>
+                <hr>
+                <p class="card-text  text-bg-success p-3">{{ result }}</p>
+            </div>
+            <div class="card-body">
+                <a  href="{{url_for('index')}}" class="btn btn-dark">برگشت</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3"></div>
+</div>
+{% endblock content%}

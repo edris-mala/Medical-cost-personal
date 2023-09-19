@@ -1,0 +1,3 @@
+
+pip install flask
+pip install scikit-learn
