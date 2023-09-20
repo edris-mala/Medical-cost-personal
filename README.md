@@ -1,7 +1,8 @@
 # Medical-cost-personal
 
 ### Note: Berfor run project you should update your sklearn library
-Steps:
+#### Steps:
+
 1- download source code of app
 
 2- go to project directory by command prompt(cmd) in windows or terminal in linux
